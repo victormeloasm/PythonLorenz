@@ -1,12 +1,11 @@
-Certainly! Let's create a concise and informative README.md file for GitHub, summarizing the Lorenz Attractor, Chaos Theory, and providing guidance on using the Python code.
-
----
-
 # Lorenz Attractor and Chaos Theory
 
 ## Overview:
 
 The Lorenz Attractor is a set of chaotic solutions to a system of three ordinary differential equations (ODEs), named after meteorologist Edward N. Lorenz. These equations capture the essence of deterministic chaos, a phenomenon where small changes in initial conditions lead to vastly different outcomes.
+
+![Lorenz Attractor](Lorenz1.jpg)
+
 
 ## Key Concepts:
 
@@ -18,11 +17,8 @@ Chaos Theory explores the behavior of complex and nonlinear dynamical systems th
 
 The Lorenz Attractor is governed by three coupled ODEs:
 
-\[ \frac{dx}{dt} = \sigma (y - x) \]
-\[ \frac{dy}{dt} = x(\rho - z) - y \]
-\[ \frac{dz}{dt} = xy - \beta z \]
+![ODE Equations](equations.jpg)
 
-Here, \(x\), \(y\), and \(z\) are state variables, and \(\sigma\), \(\rho\), and \(\beta\) are parameters.
 
 ## Python Visualization:
 
